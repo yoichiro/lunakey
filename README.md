@@ -102,7 +102,7 @@ This is a keyboard which has 11 keys only. Users can customize all keys by assig
 
 * [Lunakey Macro - Remap](https://remap-keys.app/catalog/IY0IjAQ6fM1G3DAKQjmm)
 
-### Features of Lunakey Pico
+### Features of Lunakey Macro
 
 * 11 keys.
 * Supported both Cherry MX compatible key switches.
