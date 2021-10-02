@@ -24,6 +24,31 @@ Lunakey Mini is a 40% keyboard which has 44 keys and is splitted to left and rig
 * OLEDs can put on each side (optional).
 * Can customize with [Remap](https://remap-keys.app)
 
+### Necessary Parts
+
+* PCB x 2
+* Top plate x 2
+* Bottom plate x 2
+* Cover plate x 2
+* ProMicro x 2
+* Head pins (12 pins) x 4
+* TRRS socket x 2
+* Tact switch (2 feet) x 2
+* Diode (1N4148W) x 44
+* LED (WS2812B) x 12
+* Key socket (Cherry MX Compatible) x 44
+* Key socket (Kailh Choc V1) x 44
+* piezoelectric speaker (PKLCS1212E4001-R1) x 1
+* Register 1kΩ x 1
+* M2 spacer 7.5mm x 10
+* M2 spacer 10mm x 4
+* M2 bolt 5mm x 24
+* M2 bolt 3mm x 2
+* TRS Cable or TRRS cable x 1
+* USB Micro B cable x 1
+* Key switch（Cherry MX compatible or Kailh Choc V1） x 44
+* Key cap（Cherry MX compatible or Kailh Choc V1, 1U） x 44
+* OLED module （with pin socket） x 2 (optional)
 
 ## Lunakey Pico
 
@@ -43,11 +68,39 @@ The special feature of this Lunakey Pico is that Raspberry Pi Pico has been adop
 * Underglow LEDs lighting effect.
 * Provides a sound feedback by a piezoelectric speaker.
 
+### Necessary Parts
+
+* PCB x 2
+* Top plate x 2
+* Bottom plate x 2
+* Cover plate x 2
+* Raspberry Pi Pico x 2
+* Head pins (20 pins) x 4
+* TRRS socket x 2
+* Tact switch (2 feet) x 2
+* Diode (1N4148W) x 44
+* LED (WS2812B) x 12
+* Key socket (Cherry MX Compatible) x 44
+* Key socket (Kailh Choc V1) x 44
+* piezoelectric speaker (PKLCS1212E4001-R1) x 1
+* Register 1kΩ x 1
+* M2 spacer 7.5mm x 10
+* M2 spacer 10mm x 4
+* M2 bolt 5mm x 24
+* M2 bolt 3mm x 2
+* TRS Cable or TRRS cable x 1
+* USB Micro B cable x 1
+* Key switch（Cherry MX compatible or Kailh Choc V1） x 44
+* Key cap（Cherry MX compatible or Kailh Choc V1, 1U） x 44
+
+
 ## Lunakey Macro
 
 ![PXL_20210801_081120101](https://user-images.githubusercontent.com/261787/135699876-0cde00c4-77dd-40b5-9984-46d17b465a78.jpg)
 
 This is a keyboard which has 11 keys only. Users can customize all keys by assigning any key code freely and assigning macros with [Remap](https://remap-keys.app).
+
+* [Lunakey Macro - Remap](https://remap-keys.app/catalog/IY0IjAQ6fM1G3DAKQjmm)
 
 ### Features of Lunakey Pico
 
@@ -56,6 +109,25 @@ This is a keyboard which has 11 keys only. Users can customize all keys by assig
 * Can exchange key switches without soldering by adopting the key sockets.
 * Underglow LEDs lighting effect.
 * Provides a sound feedback by a piezoelectric speaker.
+
+### Necessary Parts
+
+* PCB x 1
+* Top plate x 1
+* Bottom plate x 1
+* Pro Micro x 1
+* Head pins (12 pins) x 2
+* Tact switch (2 feet) x 1
+* Diode (1N4148W) x 11
+* LED Tape (five WS2812B) x 1
+* Key socket (Cherry MX Compatible) x 11
+* piezoelectric speaker (PKLCS1212E4001-R1) x 1
+* Register 1kΩ x 1
+* M2 spacer 7.5mm x 4
+* M2 bolt 5mm x 4
+* USB Micro B cable x 1
+* Key switch（Cherry MX compatible） x 11
+* Key cap（Cherry MX compatible, 1U） x 11
 
 
 ## For Keyboard Developers
