@@ -88,10 +88,12 @@ The special feature of this Lunakey Pico is that Raspberry Pi Pico has been adop
 * M2 spacer 10mm x 4
 * M2 bolt 5mm x 24
 * M2 bolt 3mm x 2
-* TRS Cable or TRRS cable x 1
+* TRRS cable x 1
 * USB Micro B cable x 1
 * Key switch（Cherry MX compatible or Kailh Choc V1） x 44
 * Key cap（Cherry MX compatible or Kailh Choc V1, 1U） x 44
+
+Note that TRS (three poles) cable does not work.
 
 
 ## Lunakey Macro
