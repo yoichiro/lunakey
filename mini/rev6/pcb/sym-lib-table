@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name kbd)(type Legacy)(uri ${KBD_PATH}/kicad-symbols/kbd.lib)(options "")(descr ""))
+  (lib (name PKLCS1212E4001-R1)(type Legacy)(uri ${SPEAKER_PATH}/PKLCS1212E4001-R1.lib)(options "")(descr ""))
+  (lib (name yoichiro)(type Legacy)(uri ${YOICHIRO_KBD_PATH}/kicad-symbols/yoichiro-kbd.lib)(options "")(descr ""))
+)

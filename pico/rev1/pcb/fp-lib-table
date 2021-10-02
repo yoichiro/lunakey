@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name kbd)(type KiCad)(uri ${KBD_PATH}/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name PKLCS1212E4001-R1)(type KiCad)(uri ${SPEAKER_PATH})(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri ${KEEBIO_PATH}/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name Yoichiro)(type KiCad)(uri ${YOICHIRO_KBD_PATH}/kicad-footprints/Yoichiro.pretty)(options "")(descr ""))
+)
