@@ -152,3 +152,6 @@ To open each KiCAD project normally, ou need to add following dependencies to yo
 ## License
 
 All files are published under [Lunakey License](https://github.com/yoichiro/lunakey/blob/main/LICENSE). This license consists of dual licenses, for commercial use and non-commercial use. Users who want to use files for the commercial purpose need to agree the commercial-use license. Otherwise, users need to agree the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.
+
+Copyright (C) 2021 Yoichiro Tanaka, all rights reserved.
+
