@@ -1,0 +1,2130 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Lunakey Pico"
+Date ""
+Rev "1"
+Comp "Yoichiro Tanaka"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1350 4100 1    50   Input ~ 0
+col0-l
+$Comp
+L Device:D D1
+U 1 1 5F8C0E5D
+P 1950 4450
+F 0 "D1" V 2000 4600 50  0000 R CNN
+F 1 "D" V 1900 4600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1950 4450 50  0001 C CNN
+F 3 "~" H 1950 4450 50  0001 C CNN
+	1    1950 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW2
+U 1 1 5F8C361A
+P 1650 4800
+F 0 "SW2" H 1650 4750 50  0000 C CNN
+F 1 "SW_PUSH" H 1650 4964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 1650 4800 50  0001 C CNN
+F 3 "" H 1650 4800 50  0000 C CNN
+	1    1650 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW3
+U 1 1 5F8C48A7
+P 1650 5300
+F 0 "SW3" H 1650 5250 50  0000 C CNN
+F 1 "SW_PUSH" H 1650 5464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 1650 5300 50  0001 C CNN
+F 3 "" H 1650 5300 50  0000 C CNN
+	1    1650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5F8C559D
+P 1950 5450
+F 0 "D3" V 2000 5600 50  0000 R CNN
+F 1 "D" V 1900 5600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1950 5450 50  0001 C CNN
+F 3 "~" H 1950 5450 50  0001 C CNN
+	1    1950 5450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1200 4600 0    50   Input ~ 0
+row0-l
+Wire Wire Line
+	1350 4100 1350 4300
+Wire Wire Line
+	1950 4600 1200 4600
+Wire Wire Line
+	1350 4300 1350 4800
+Connection ~ 1350 4300
+Text GLabel 1200 5600 0    50   Input ~ 0
+row2-l
+Text GLabel 1200 6100 0    50   Input ~ 0
+row3-l
+$Comp
+L kbd:SW_PUSH SW1
+U 1 1 5F8BF00B
+P 1650 4300
+F 0 "SW1" H 1650 4250 50  0000 C CNN
+F 1 "SW_PUSH" H 1650 4464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 1650 4300 50  0001 C CNN
+F 3 "" H 1650 4300 50  0000 C CNN
+	1    1650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5F8C40BA
+P 1950 4950
+F 0 "D2" V 2000 5100 50  0000 R CNN
+F 1 "D" V 1900 5100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 1950 4950 50  0001 C CNN
+F 3 "~" H 1950 4950 50  0001 C CNN
+	1    1950 4950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1200 5100 0    50   Input ~ 0
+row1-l
+Wire Wire Line
+	1950 5100 1200 5100
+Wire Wire Line
+	1200 5600 1950 5600
+Wire Wire Line
+	1350 5300 1350 4800
+Connection ~ 1350 4800
+$Comp
+L kbd:SW_PUSH SW4
+U 1 1 5F8CCB62
+P 2350 4300
+F 0 "SW4" H 2350 4250 50  0000 C CNN
+F 1 "SW_PUSH" H 2350 4464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 2350 4300 50  0001 C CNN
+F 3 "" H 2350 4300 50  0000 C CNN
+	1    2350 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 4100 1    50   Input ~ 0
+col1-l
+$Comp
+L Device:D D4
+U 1 1 5F8CD695
+P 2650 4450
+F 0 "D4" V 2700 4600 50  0000 R CNN
+F 1 "D" V 2600 4600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 4450 50  0001 C CNN
+F 3 "~" H 2650 4450 50  0001 C CNN
+	1    2650 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW5
+U 1 1 5F8CDAFE
+P 2350 4800
+F 0 "SW5" H 2350 4750 50  0000 C CNN
+F 1 "SW_PUSH" H 2350 4964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 2350 4800 50  0001 C CNN
+F 3 "" H 2350 4800 50  0000 C CNN
+	1    2350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5F8CE17C
+P 2650 4950
+F 0 "D5" V 2700 5100 50  0000 R CNN
+F 1 "D" V 2600 5100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 4950 50  0001 C CNN
+F 3 "~" H 2650 4950 50  0001 C CNN
+	1    2650 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW6
+U 1 1 5F8CE9CD
+P 2350 5300
+F 0 "SW6" H 2350 5250 50  0000 C CNN
+F 1 "SW_PUSH" H 2350 5464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 2350 5300 50  0001 C CNN
+F 3 "" H 2350 5300 50  0000 C CNN
+	1    2350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5F8CF484
+P 2650 5450
+F 0 "D6" V 2700 5600 50  0000 R CNN
+F 1 "D" V 2600 5600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 2650 5450 50  0001 C CNN
+F 3 "~" H 2650 5450 50  0001 C CNN
+	1    2650 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 4100 2050 4300
+Wire Wire Line
+	2650 4600 1950 4600
+Connection ~ 1950 4600
+Wire Wire Line
+	2050 4300 2050 4800
+Connection ~ 2050 4300
+Wire Wire Line
+	2650 5100 1950 5100
+Connection ~ 1950 5100
+Wire Wire Line
+	2050 4800 2050 5300
+Connection ~ 2050 4800
+Wire Wire Line
+	2650 5600 1950 5600
+Connection ~ 1950 5600
+$Comp
+L kbd:SW_PUSH SW7
+U 1 1 5F8DBE32
+P 3050 4300
+F 0 "SW7" H 3050 4250 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 4464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 3050 4300 50  0001 C CNN
+F 3 "" H 3050 4300 50  0000 C CNN
+	1    3050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5F8DC6EF
+P 3350 4450
+F 0 "D7" V 3400 4600 50  0000 R CNN
+F 1 "D" V 3300 4600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3350 4450 50  0001 C CNN
+F 3 "~" H 3350 4450 50  0001 C CNN
+	1    3350 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW8
+U 1 1 5F8DCE78
+P 3050 4800
+F 0 "SW8" H 3050 4750 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 4964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 3050 4800 50  0001 C CNN
+F 3 "" H 3050 4800 50  0000 C CNN
+	1    3050 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5F8DD7A8
+P 3350 4950
+F 0 "D8" V 3400 5100 50  0000 R CNN
+F 1 "D" V 3300 5100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3350 4950 50  0001 C CNN
+F 3 "~" H 3350 4950 50  0001 C CNN
+	1    3350 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW9
+U 1 1 5F8DDDA1
+P 3050 5300
+F 0 "SW9" H 3050 5250 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 5464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 3050 5300 50  0001 C CNN
+F 3 "" H 3050 5300 50  0000 C CNN
+	1    3050 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5F8DE1C9
+P 3350 5450
+F 0 "D9" V 3400 5600 50  0000 R CNN
+F 1 "D" V 3300 5600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3350 5450 50  0001 C CNN
+F 3 "~" H 3350 5450 50  0001 C CNN
+	1    3350 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW10
+U 1 1 5F8DEB78
+P 3050 5800
+F 0 "SW10" H 3050 5750 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 5964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 3050 5800 50  0001 C CNN
+F 3 "" H 3050 5800 50  0000 C CNN
+	1    3050 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5F8DF3D9
+P 3350 5950
+F 0 "D10" V 3400 6100 50  0000 R CNN
+F 1 "D" V 3300 6100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 3350 5950 50  0001 C CNN
+F 3 "~" H 3350 5950 50  0001 C CNN
+	1    3350 5950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2750 4100 1    50   Input ~ 0
+col2-l
+Wire Wire Line
+	2750 4100 2750 4300
+Wire Wire Line
+	3350 4600 2650 4600
+Connection ~ 2650 4600
+Wire Wire Line
+	2750 4300 2750 4800
+Connection ~ 2750 4300
+Wire Wire Line
+	3350 5100 2650 5100
+Connection ~ 2650 5100
+Wire Wire Line
+	2750 4800 2750 5300
+Connection ~ 2750 4800
+Wire Wire Line
+	3350 5600 2650 5600
+Connection ~ 2650 5600
+Wire Wire Line
+	2750 5800 2750 5300
+Connection ~ 2750 5300
+$Comp
+L kbd:SW_PUSH SW11
+U 1 1 5F8E46D7
+P 3750 4300
+F 0 "SW11" H 3750 4250 50  0000 C CNN
+F 1 "SW_PUSH" H 3750 4464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 3750 4300 50  0001 C CNN
+F 3 "" H 3750 4300 50  0000 C CNN
+	1    3750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5F8E5177
+P 4050 4450
+F 0 "D11" V 4100 4600 50  0000 R CNN
+F 1 "D" V 4000 4600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4050 4450 50  0001 C CNN
+F 3 "~" H 4050 4450 50  0001 C CNN
+	1    4050 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW12
+U 1 1 5F8E5964
+P 3750 4800
+F 0 "SW12" H 3750 4750 50  0000 C CNN
+F 1 "SW_PUSH" H 3750 4964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 3750 4800 50  0001 C CNN
+F 3 "" H 3750 4800 50  0000 C CNN
+	1    3750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5F8E61DC
+P 4050 4950
+F 0 "D12" V 4100 5100 50  0000 R CNN
+F 1 "D" V 4000 5100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4050 4950 50  0001 C CNN
+F 3 "~" H 4050 4950 50  0001 C CNN
+	1    4050 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW13
+U 1 1 5F8E6997
+P 3750 5300
+F 0 "SW13" H 3750 5250 50  0000 C CNN
+F 1 "SW_PUSH" H 3750 5464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 3750 5300 50  0001 C CNN
+F 3 "" H 3750 5300 50  0000 C CNN
+	1    3750 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5F8E6E8E
+P 4050 5450
+F 0 "D13" V 4100 5600 50  0000 R CNN
+F 1 "D" V 4000 5600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4050 5450 50  0001 C CNN
+F 3 "~" H 4050 5450 50  0001 C CNN
+	1    4050 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW14
+U 1 1 5F8E751D
+P 3750 5800
+F 0 "SW14" H 3750 5750 50  0000 C CNN
+F 1 "SW_PUSH" H 3750 5964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 3750 5800 50  0001 C CNN
+F 3 "" H 3750 5800 50  0000 C CNN
+	1    3750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5F8E7A42
+P 4050 5950
+F 0 "D14" V 4100 6100 50  0000 R CNN
+F 1 "D" V 4000 6100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4050 5950 50  0001 C CNN
+F 3 "~" H 4050 5950 50  0001 C CNN
+	1    4050 5950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3450 4100 1    50   Input ~ 0
+col3-l
+Wire Wire Line
+	3450 4300 3450 4100
+Wire Wire Line
+	4050 4600 3350 4600
+Connection ~ 3350 4600
+Wire Wire Line
+	3450 4800 3450 4300
+Connection ~ 3450 4300
+Wire Wire Line
+	4050 5100 3350 5100
+Connection ~ 3350 5100
+Wire Wire Line
+	3450 4800 3450 5300
+Connection ~ 3450 4800
+Wire Wire Line
+	4050 5600 3350 5600
+Connection ~ 3350 5600
+Wire Wire Line
+	3450 5800 3450 5300
+Connection ~ 3450 5300
+Wire Wire Line
+	4050 6100 3350 6100
+$Comp
+L kbd:SW_PUSH SW15
+U 1 1 5F8ED6F3
+P 4450 4300
+F 0 "SW15" H 4450 4250 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 4464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 4450 4300 50  0001 C CNN
+F 3 "" H 4450 4300 50  0000 C CNN
+	1    4450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5F8EDD15
+P 4750 4450
+F 0 "D15" V 4800 4600 50  0000 R CNN
+F 1 "D" V 4700 4600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4750 4450 50  0001 C CNN
+F 3 "~" H 4750 4450 50  0001 C CNN
+	1    4750 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW16
+U 1 1 5F8EE3D6
+P 4450 4800
+F 0 "SW16" H 4450 4750 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 4964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 4450 4800 50  0001 C CNN
+F 3 "" H 4450 4800 50  0000 C CNN
+	1    4450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5F8EECC1
+P 4750 4950
+F 0 "D16" V 4800 5100 50  0000 R CNN
+F 1 "D" V 4700 5100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4750 4950 50  0001 C CNN
+F 3 "~" H 4750 4950 50  0001 C CNN
+	1    4750 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW17
+U 1 1 5F8EF2BA
+P 4450 5300
+F 0 "SW17" H 4450 5250 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 5464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 4450 5300 50  0001 C CNN
+F 3 "" H 4450 5300 50  0000 C CNN
+	1    4450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5F8EF8F3
+P 4750 5450
+F 0 "D17" V 4800 5600 50  0000 R CNN
+F 1 "D" V 4700 5600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4750 5450 50  0001 C CNN
+F 3 "~" H 4750 5450 50  0001 C CNN
+	1    4750 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW18
+U 1 1 5F8F0E86
+P 4450 5800
+F 0 "SW18" H 4450 5750 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 5964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 4450 5800 50  0001 C CNN
+F 3 "" H 4450 5800 50  0000 C CNN
+	1    4450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5F8F28C3
+P 4750 5950
+F 0 "D18" V 4800 6100 50  0000 R CNN
+F 1 "D" V 4700 6100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 4750 5950 50  0001 C CNN
+F 3 "~" H 4750 5950 50  0001 C CNN
+	1    4750 5950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4150 4100 1    50   Input ~ 0
+col4-l
+Wire Wire Line
+	4750 4600 4050 4600
+Connection ~ 4050 4600
+Wire Wire Line
+	4150 4100 4150 4300
+Wire Wire Line
+	4150 4800 4150 4300
+Connection ~ 4150 4300
+Wire Wire Line
+	4750 5100 4050 5100
+Connection ~ 4050 5100
+Wire Wire Line
+	4150 4800 4150 5300
+Connection ~ 4150 4800
+Wire Wire Line
+	4750 5600 4050 5600
+Connection ~ 4050 5600
+Wire Wire Line
+	4150 5300 4150 5800
+Connection ~ 4150 5300
+Wire Wire Line
+	4750 6100 4050 6100
+Connection ~ 4050 6100
+$Comp
+L kbd:SW_PUSH SW20
+U 1 1 5F8FB4D9
+P 5150 4300
+F 0 "SW20" H 5150 4250 50  0000 C CNN
+F 1 "SW_PUSH" H 5150 4464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 5150 4300 50  0001 C CNN
+F 3 "" H 5150 4300 50  0000 C CNN
+	1    5150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 5F8FBD68
+P 5450 4450
+F 0 "D19" V 5500 4600 50  0000 R CNN
+F 1 "D" V 5400 4600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5450 4450 50  0001 C CNN
+F 3 "~" H 5450 4450 50  0001 C CNN
+	1    5450 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW21
+U 1 1 5F8FC762
+P 5150 4800
+F 0 "SW21" H 5150 4750 50  0000 C CNN
+F 1 "SW_PUSH" H 5150 4964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 5150 4800 50  0001 C CNN
+F 3 "" H 5150 4800 50  0000 C CNN
+	1    5150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5F8FCEF4
+P 5450 4950
+F 0 "D20" V 5500 5100 50  0000 R CNN
+F 1 "D" V 5400 5100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5450 4950 50  0001 C CNN
+F 3 "~" H 5450 4950 50  0001 C CNN
+	1    5450 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW22
+U 1 1 5F8FD506
+P 5150 5300
+F 0 "SW22" H 5150 5250 50  0000 C CNN
+F 1 "SW_PUSH" H 5150 5464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 5150 5300 50  0001 C CNN
+F 3 "" H 5150 5300 50  0000 C CNN
+	1    5150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5F8FDA2B
+P 5450 5450
+F 0 "D21" V 5500 5600 50  0000 R CNN
+F 1 "D" V 5400 5600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5450 5450 50  0001 C CNN
+F 3 "~" H 5450 5450 50  0001 C CNN
+	1    5450 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW23
+U 1 1 5F8FE2E0
+P 5150 5800
+F 0 "SW23" H 5150 5750 50  0000 C CNN
+F 1 "SW_PUSH" H 5150 5964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 5150 5800 50  0001 C CNN
+F 3 "" H 5150 5800 50  0000 C CNN
+	1    5150 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5F8FE81C
+P 5450 5950
+F 0 "D22" V 5500 6100 50  0000 R CNN
+F 1 "D" V 5400 6100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 5450 5950 50  0001 C CNN
+F 3 "~" H 5450 5950 50  0001 C CNN
+	1    5450 5950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4850 4100 1    50   Input ~ 0
+col5-l
+Wire Wire Line
+	4850 4100 4850 4300
+Wire Wire Line
+	5450 4600 4750 4600
+Connection ~ 4750 4600
+Wire Wire Line
+	4850 4300 4850 4800
+Connection ~ 4850 4300
+Wire Wire Line
+	5450 5100 4750 5100
+Connection ~ 4750 5100
+Wire Wire Line
+	4850 4800 4850 5300
+Connection ~ 4850 4800
+Wire Wire Line
+	5450 5600 4750 5600
+Connection ~ 4750 5600
+Wire Wire Line
+	4850 5300 4850 5800
+Connection ~ 4850 5300
+Wire Wire Line
+	5450 6100 4750 6100
+Connection ~ 4750 6100
+Text GLabel 6750 4100 1    50   Input ~ 0
+col0-r
+$Comp
+L kbd:SW_PUSH SW24
+U 1 1 5F92D20F
+P 7050 4300
+F 0 "SW24" H 7050 4250 50  0000 C CNN
+F 1 "SW_PUSH" H 7050 4464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 7050 4300 50  0001 C CNN
+F 3 "" H 7050 4300 50  0000 C CNN
+	1    7050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 5F92DD22
+P 7350 4450
+F 0 "D23" V 7400 4600 50  0000 R CNN
+F 1 "D" V 7300 4600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7350 4450 50  0001 C CNN
+F 3 "~" H 7350 4450 50  0001 C CNN
+	1    7350 4450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6600 4600 0    50   Input ~ 0
+row0-r
+Wire Wire Line
+	7350 4600 6600 4600
+Wire Wire Line
+	6750 4300 6750 4100
+Text GLabel 6600 5100 0    50   Input ~ 0
+row1-r
+Text GLabel 6600 5600 0    50   Input ~ 0
+row2-r
+Text GLabel 6600 6100 0    50   Input ~ 0
+row3-r
+$Comp
+L kbd:SW_PUSH SW25
+U 1 1 5F934B31
+P 7050 4800
+F 0 "SW25" H 7050 4750 50  0000 C CNN
+F 1 "SW_PUSH" H 7050 4964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 7050 4800 50  0001 C CNN
+F 3 "" H 7050 4800 50  0000 C CNN
+	1    7050 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5F935A7D
+P 7350 4950
+F 0 "D24" V 7400 5100 50  0000 R CNN
+F 1 "D" V 7300 5100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7350 4950 50  0001 C CNN
+F 3 "~" H 7350 4950 50  0001 C CNN
+	1    7350 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6750 4800 6750 4300
+Connection ~ 6750 4300
+Wire Wire Line
+	7350 5100 6600 5100
+$Comp
+L kbd:SW_PUSH SW26
+U 1 1 5F938153
+P 7050 5300
+F 0 "SW26" H 7050 5250 50  0000 C CNN
+F 1 "SW_PUSH" H 7050 5464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 7050 5300 50  0001 C CNN
+F 3 "" H 7050 5300 50  0000 C CNN
+	1    7050 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 5F9388A0
+P 7350 5450
+F 0 "D25" V 7400 5600 50  0000 R CNN
+F 1 "D" V 7300 5600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 7350 5450 50  0001 C CNN
+F 3 "~" H 7350 5450 50  0001 C CNN
+	1    7350 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7350 5600 6600 5600
+Wire Wire Line
+	6750 5300 6750 4800
+Connection ~ 6750 4800
+Text GLabel 7450 4100 1    50   Input ~ 0
+col1-r
+$Comp
+L kbd:SW_PUSH SW27
+U 1 1 5F93E0C9
+P 7750 4300
+F 0 "SW27" H 7750 4250 50  0000 C CNN
+F 1 "SW_PUSH" H 7750 4464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 7750 4300 50  0001 C CNN
+F 3 "" H 7750 4300 50  0000 C CNN
+	1    7750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 5F93F963
+P 8050 4450
+F 0 "D26" V 8100 4600 50  0000 R CNN
+F 1 "D" V 8000 4600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8050 4450 50  0001 C CNN
+F 3 "~" H 8050 4450 50  0001 C CNN
+	1    8050 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 4100 7450 4300
+Wire Wire Line
+	8050 4600 7350 4600
+Connection ~ 7350 4600
+$Comp
+L kbd:SW_PUSH SW28
+U 1 1 5F94211E
+P 7750 4800
+F 0 "SW28" H 7750 4750 50  0000 C CNN
+F 1 "SW_PUSH" H 7750 4964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 7750 4800 50  0001 C CNN
+F 3 "" H 7750 4800 50  0000 C CNN
+	1    7750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 5F9427E1
+P 8050 4950
+F 0 "D27" V 8100 5100 50  0000 R CNN
+F 1 "D" V 8000 5100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8050 4950 50  0001 C CNN
+F 3 "~" H 8050 4950 50  0001 C CNN
+	1    8050 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 4800 7450 4300
+Connection ~ 7450 4300
+Wire Wire Line
+	8050 5100 7350 5100
+Connection ~ 7350 5100
+$Comp
+L kbd:SW_PUSH SW29
+U 1 1 5F945284
+P 7750 5300
+F 0 "SW29" H 7750 5250 50  0000 C CNN
+F 1 "SW_PUSH" H 7750 5464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 7750 5300 50  0001 C CNN
+F 3 "" H 7750 5300 50  0000 C CNN
+	1    7750 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 5F945AE5
+P 8050 5450
+F 0 "D28" V 8100 5600 50  0000 R CNN
+F 1 "D" V 8000 5600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8050 5450 50  0001 C CNN
+F 3 "~" H 8050 5450 50  0001 C CNN
+	1    8050 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 5600 7350 5600
+Connection ~ 7350 5600
+Wire Wire Line
+	7450 5300 7450 4800
+Connection ~ 7450 4800
+Text GLabel 8150 4100 1    50   Input ~ 0
+col2-r
+$Comp
+L kbd:SW_PUSH SW30
+U 1 1 5F94C11B
+P 8450 4300
+F 0 "SW30" H 8450 4250 50  0000 C CNN
+F 1 "SW_PUSH" H 8450 4464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 8450 4300 50  0001 C CNN
+F 3 "" H 8450 4300 50  0000 C CNN
+	1    8450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 5F94C94E
+P 8750 4450
+F 0 "D29" V 8800 4600 50  0000 R CNN
+F 1 "D" V 8700 4600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8750 4450 50  0001 C CNN
+F 3 "~" H 8750 4450 50  0001 C CNN
+	1    8750 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 4100 8150 4300
+Wire Wire Line
+	8750 4600 8050 4600
+Connection ~ 8050 4600
+$Comp
+L kbd:SW_PUSH SW31
+U 1 1 5F94F9B4
+P 8450 4800
+F 0 "SW31" H 8450 4750 50  0000 C CNN
+F 1 "SW_PUSH" H 8450 4964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 8450 4800 50  0001 C CNN
+F 3 "" H 8450 4800 50  0000 C CNN
+	1    8450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 5F94FF63
+P 8750 4950
+F 0 "D30" V 8800 5100 50  0000 R CNN
+F 1 "D" V 8700 5100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8750 4950 50  0001 C CNN
+F 3 "~" H 8750 4950 50  0001 C CNN
+	1    8750 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 5100 8050 5100
+Connection ~ 8050 5100
+Wire Wire Line
+	8150 4800 8150 4300
+Connection ~ 8150 4300
+$Comp
+L kbd:SW_PUSH SW32
+U 1 1 5F95328D
+P 8450 5300
+F 0 "SW32" H 8450 5250 50  0000 C CNN
+F 1 "SW_PUSH" H 8450 5464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 8450 5300 50  0001 C CNN
+F 3 "" H 8450 5300 50  0000 C CNN
+	1    8450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5F9539C3
+P 8750 5450
+F 0 "D31" V 8800 5600 50  0000 R CNN
+F 1 "D" V 8700 5600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8750 5450 50  0001 C CNN
+F 3 "~" H 8750 5450 50  0001 C CNN
+	1    8750 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 5600 8050 5600
+Connection ~ 8050 5600
+Wire Wire Line
+	8150 5300 8150 4800
+Connection ~ 8150 4800
+$Comp
+L kbd:SW_PUSH SW33
+U 1 1 5F9A086A
+P 8450 5800
+F 0 "SW33" H 8450 5750 50  0000 C CNN
+F 1 "SW_PUSH" H 8450 5964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 8450 5800 50  0001 C CNN
+F 3 "" H 8450 5800 50  0000 C CNN
+	1    8450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5F9A11C8
+P 8750 5950
+F 0 "D32" V 8800 6100 50  0000 R CNN
+F 1 "D" V 8700 6100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 8750 5950 50  0001 C CNN
+F 3 "~" H 8750 5950 50  0001 C CNN
+	1    8750 5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 5800 8150 5300
+Connection ~ 8150 5300
+Text GLabel 8850 4100 1    50   Input ~ 0
+col3-r
+$Comp
+L kbd:SW_PUSH SW34
+U 1 1 5F9A5940
+P 9150 4300
+F 0 "SW34" H 9150 4250 50  0000 C CNN
+F 1 "SW_PUSH" H 9150 4464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 9150 4300 50  0001 C CNN
+F 3 "" H 9150 4300 50  0000 C CNN
+	1    9150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5F9A7014
+P 9450 4450
+F 0 "D33" V 9500 4600 50  0000 R CNN
+F 1 "D" V 9400 4600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9450 4450 50  0001 C CNN
+F 3 "~" H 9450 4450 50  0001 C CNN
+	1    9450 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW35
+U 1 1 5F9A75A9
+P 9150 4800
+F 0 "SW35" H 9150 4750 50  0000 C CNN
+F 1 "SW_PUSH" H 9150 4964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 9150 4800 50  0001 C CNN
+F 3 "" H 9150 4800 50  0000 C CNN
+	1    9150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 5F9A7BF9
+P 9450 4950
+F 0 "D34" V 9500 5100 50  0000 R CNN
+F 1 "D" V 9400 5100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9450 4950 50  0001 C CNN
+F 3 "~" H 9450 4950 50  0001 C CNN
+	1    9450 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW36
+U 1 1 5F9A81F2
+P 9150 5300
+F 0 "SW36" H 9150 5250 50  0000 C CNN
+F 1 "SW_PUSH" H 9150 5464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 9150 5300 50  0001 C CNN
+F 3 "" H 9150 5300 50  0000 C CNN
+	1    9150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5F9A8745
+P 9450 5450
+F 0 "D35" V 9500 5600 50  0000 R CNN
+F 1 "D" V 9400 5600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9450 5450 50  0001 C CNN
+F 3 "~" H 9450 5450 50  0001 C CNN
+	1    9450 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW37
+U 1 1 5F9A96D5
+P 9150 5800
+F 0 "SW37" H 9150 5750 50  0000 C CNN
+F 1 "SW_PUSH" H 9150 5964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 9150 5800 50  0001 C CNN
+F 3 "" H 9150 5800 50  0000 C CNN
+	1    9150 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 5F9A9D81
+P 9450 5950
+F 0 "D36" V 9500 6100 50  0000 R CNN
+F 1 "D" V 9400 6100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 9450 5950 50  0001 C CNN
+F 3 "~" H 9450 5950 50  0001 C CNN
+	1    9450 5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8850 4100 8850 4300
+Wire Wire Line
+	9450 4600 8750 4600
+Connection ~ 8750 4600
+Wire Wire Line
+	8850 4800 8850 4300
+Connection ~ 8850 4300
+Wire Wire Line
+	9450 5100 8750 5100
+Connection ~ 8750 5100
+Wire Wire Line
+	8850 5300 8850 4800
+Connection ~ 8850 4800
+Wire Wire Line
+	9450 5600 8750 5600
+Connection ~ 8750 5600
+Wire Wire Line
+	8850 5800 8850 5300
+Connection ~ 8850 5300
+Wire Wire Line
+	9450 6100 8750 6100
+Text GLabel 9550 4100 1    50   Input ~ 0
+col4-r
+$Comp
+L kbd:SW_PUSH SW38
+U 1 1 5F9B408D
+P 9850 4300
+F 0 "SW38" H 9850 4250 50  0000 C CNN
+F 1 "SW_PUSH" H 9850 4464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 9850 4300 50  0001 C CNN
+F 3 "" H 9850 4300 50  0000 C CNN
+	1    9850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 5F9B4BCE
+P 10150 4450
+F 0 "D37" V 10200 4600 50  0000 R CNN
+F 1 "D" V 10100 4600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10150 4450 50  0001 C CNN
+F 3 "~" H 10150 4450 50  0001 C CNN
+	1    10150 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW39
+U 1 1 5F9B5325
+P 9850 4800
+F 0 "SW39" H 9850 4750 50  0000 C CNN
+F 1 "SW_PUSH" H 9850 4964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 9850 4800 50  0001 C CNN
+F 3 "" H 9850 4800 50  0000 C CNN
+	1    9850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5F9B5B58
+P 10150 4950
+F 0 "D38" V 10200 5100 50  0000 R CNN
+F 1 "D" V 10100 5100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10150 4950 50  0001 C CNN
+F 3 "~" H 10150 4950 50  0001 C CNN
+	1    10150 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW40
+U 1 1 5F9B67CA
+P 9850 5300
+F 0 "SW40" H 9850 5250 50  0000 C CNN
+F 1 "SW_PUSH" H 9850 5464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 9850 5300 50  0001 C CNN
+F 3 "" H 9850 5300 50  0000 C CNN
+	1    9850 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 5F9B709E
+P 10150 5450
+F 0 "D39" V 10200 5600 50  0000 R CNN
+F 1 "D" V 10100 5600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10150 5450 50  0001 C CNN
+F 3 "~" H 10150 5450 50  0001 C CNN
+	1    10150 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW41
+U 1 1 5F9B780E
+P 9850 5800
+F 0 "SW41" H 9850 5750 50  0000 C CNN
+F 1 "SW_PUSH" H 9850 5964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 9850 5800 50  0001 C CNN
+F 3 "" H 9850 5800 50  0000 C CNN
+	1    9850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 5F9B7F2D
+P 10150 5950
+F 0 "D40" V 10200 6100 50  0000 R CNN
+F 1 "D" V 10100 6100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10150 5950 50  0001 C CNN
+F 3 "~" H 10150 5950 50  0001 C CNN
+	1    10150 5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 4300 9550 4100
+Wire Wire Line
+	10150 4600 9450 4600
+Connection ~ 9450 4600
+Wire Wire Line
+	9550 4800 9550 4300
+Connection ~ 9550 4300
+Wire Wire Line
+	10150 5100 9450 5100
+Connection ~ 9450 5100
+Wire Wire Line
+	9550 5300 9550 4800
+Connection ~ 9550 4800
+Wire Wire Line
+	10150 5600 9450 5600
+Connection ~ 9450 5600
+Wire Wire Line
+	9550 5800 9550 5300
+Connection ~ 9550 5300
+Wire Wire Line
+	10150 6100 9450 6100
+Connection ~ 9450 6100
+Text GLabel 10250 4100 1    50   Input ~ 0
+col5-r
+$Comp
+L kbd:SW_PUSH SW43
+U 1 1 5F9C47B5
+P 10550 4300
+F 0 "SW43" H 10550 4250 50  0000 C CNN
+F 1 "SW_PUSH" H 10550 4464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 10550 4300 50  0001 C CNN
+F 3 "" H 10550 4300 50  0000 C CNN
+	1    10550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 5F9C50B7
+P 10850 4450
+F 0 "D41" V 10900 4600 50  0000 R CNN
+F 1 "D" V 10800 4600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10850 4450 50  0001 C CNN
+F 3 "~" H 10850 4450 50  0001 C CNN
+	1    10850 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW44
+U 1 1 5F9C5C8C
+P 10550 4800
+F 0 "SW44" H 10550 4750 50  0000 C CNN
+F 1 "SW_PUSH" H 10550 4964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 10550 4800 50  0001 C CNN
+F 3 "" H 10550 4800 50  0000 C CNN
+	1    10550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 5F9C64ED
+P 10850 4950
+F 0 "D42" V 10900 5100 50  0000 R CNN
+F 1 "D" V 10800 5100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10850 4950 50  0001 C CNN
+F 3 "~" H 10850 4950 50  0001 C CNN
+	1    10850 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW45
+U 1 1 5F9C6BF9
+P 10550 5300
+F 0 "SW45" H 10550 5250 50  0000 C CNN
+F 1 "SW_PUSH" H 10550 5464 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 10550 5300 50  0001 C CNN
+F 3 "" H 10550 5300 50  0000 C CNN
+	1    10550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 5F9C735D
+P 10850 5450
+F 0 "D43" V 10900 5600 50  0000 R CNN
+F 1 "D" V 10800 5600 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10850 5450 50  0001 C CNN
+F 3 "~" H 10850 5450 50  0001 C CNN
+	1    10850 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW46
+U 1 1 5F9C79D3
+P 10550 5800
+F 0 "SW46" H 10550 5750 50  0000 C CNN
+F 1 "SW_PUSH" H 10550 5964 50  0000 C CNN
+F 2 "Yoichiro:CherryMX_Choco_Hotswap" H 10550 5800 50  0001 C CNN
+F 3 "" H 10550 5800 50  0000 C CNN
+	1    10550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5F9C90BA
+P 10850 5950
+F 0 "D44" V 10900 6100 50  0000 R CNN
+F 1 "D" V 10800 6100 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" H 10850 5950 50  0001 C CNN
+F 3 "~" H 10850 5950 50  0001 C CNN
+	1    10850 5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10250 4300 10250 4100
+Wire Wire Line
+	10850 4600 10150 4600
+Connection ~ 10150 4600
+Wire Wire Line
+	10250 4800 10250 4300
+Connection ~ 10250 4300
+Wire Wire Line
+	10850 5100 10150 5100
+Connection ~ 10150 5100
+Wire Wire Line
+	10250 5300 10250 4800
+Connection ~ 10250 4800
+Wire Wire Line
+	10850 5600 10150 5600
+Connection ~ 10150 5600
+Wire Wire Line
+	10250 5800 10250 5300
+Connection ~ 10250 5300
+Wire Wire Line
+	10850 6100 10150 6100
+Connection ~ 10150 6100
+$Comp
+L power:VCC #PWR01
+U 1 1 5FA3854C
+P 800 7350
+F 0 "#PWR01" H 800 7200 50  0001 C CNN
+F 1 "VCC" H 815 7523 50  0000 C CNN
+F 2 "" H 800 7350 50  0001 C CNN
+F 3 "" H 800 7350 50  0001 C CNN
+	1    800  7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5FA3BD04
+P 800 7350
+F 0 "#FLG01" H 800 7425 50  0001 C CNN
+F 1 "PWR_FLAG" H 800 7523 50  0000 C CNN
+F 2 "" H 800 7350 50  0001 C CNN
+F 3 "~" H 800 7350 50  0001 C CNN
+	1    800  7350
+	1    0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5FA3F2BB
+P 1250 7350
+F 0 "#FLG02" H 1250 7425 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 7523 50  0000 C CNN
+F 2 "" H 1250 7350 50  0001 C CNN
+F 3 "~" H 1250 7350 50  0001 C CNN
+	1    1250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR025
+U 1 1 5FA40E17
+P 6225 7350
+F 0 "#PWR025" H 6225 7200 50  0001 C CNN
+F 1 "VDD" H 6240 7523 50  0000 C CNN
+F 2 "" H 6225 7350 50  0001 C CNN
+F 3 "" H 6225 7350 50  0001 C CNN
+	1    6225 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 5FA41C6E
+P 6225 7350
+F 0 "#FLG03" H 6225 7425 50  0001 C CNN
+F 1 "PWR_FLAG" H 6225 7523 50  0000 C CNN
+F 2 "" H 6225 7350 50  0001 C CNN
+F 3 "~" H 6225 7350 50  0001 C CNN
+	1    6225 7350
+	1    0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 5FA44FE8
+P 6625 7350
+F 0 "#FLG04" H 6625 7425 50  0001 C CNN
+F 1 "PWR_FLAG" H 6625 7523 50  0000 C CNN
+F 2 "" H 6625 7350 50  0001 C CNN
+F 3 "~" H 6625 7350 50  0001 C CNN
+	1    6625 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5FA513EB
+P 1250 7350
+F 0 "#PWR03" H 1250 7100 50  0001 C CNN
+F 1 "GND" H 1255 7177 50  0000 C CNN
+F 2 "" H 1250 7350 50  0001 C CNN
+F 3 "" H 1250 7350 50  0001 C CNN
+	1    1250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR026
+U 1 1 5FA52736
+P 6625 7350
+F 0 "#PWR026" H 6625 7100 50  0001 C CNN
+F 1 "GNDA" H 6630 7177 50  0000 C CNN
+F 2 "" H 6625 7350 50  0001 C CNN
+F 3 "" H 6625 7350 50  0001 C CNN
+	1    6625 7350
+	1    0    0    -1  
+$EndComp
+Text GLabel 1375 2400 0    50   Input ~ 0
+row0-l
+Text GLabel 2275 2200 2    50   Input ~ 0
+col0-l
+Text GLabel 2275 2300 2    50   Input ~ 0
+col1-l
+Text GLabel 2275 2400 2    50   Input ~ 0
+col2-l
+Text GLabel 2275 2500 2    50   Input ~ 0
+col3-l
+$Comp
+L power:GND #PWR02
+U 1 1 5FA8CCF9
+P 725 1100
+F 0 "#PWR02" H 725 850 50  0001 C CNN
+F 1 "GND" H 730 927 50  0000 C CNN
+F 2 "" H 725 1100 50  0001 C CNN
+F 3 "" H 725 1100 50  0001 C CNN
+	1    725  1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2275 1100 2650 1100
+$Comp
+L power:VCC #PWR07
+U 1 1 5FA94E0C
+P 2975 875
+F 0 "#PWR07" H 2975 725 50  0001 C CNN
+F 1 "VCC" H 2990 1048 50  0000 C CNN
+F 2 "" H 2975 875 50  0001 C CNN
+F 3 "" H 2975 875 50  0001 C CNN
+	1    2975 875 
+	1    0    0    -1  
+$EndComp
+Text GLabel 2275 1900 2    50   Input ~ 0
+reset-l
+Text GLabel 4000 950  0    50   Input ~ 0
+reset-l
+$Comp
+L kbd:SW_PUSH SW19
+U 1 1 5FA99E12
+P 4300 950
+F 0 "SW19" H 4300 1205 50  0000 C CNN
+F 1 "SW_RESET" H 4300 1114 50  0000 C CNN
+F 2 "kbd:ResetSW_1side" H 4300 950 50  0001 C CNN
+F 3 "" H 4300 950 50  0000 C CNN
+	1    4300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5FA9AE61
+P 4600 950
+F 0 "#PWR013" H 4600 700 50  0001 C CNN
+F 1 "GND" H 4605 777 50  0000 C CNN
+F 2 "" H 4600 950 50  0001 C CNN
+F 3 "" H 4600 950 50  0001 C CNN
+	1    4600 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1375 900  0    50   Input ~ 0
+data-tx-l
+Text GLabel 5075 1700 2    50   Input ~ 0
+data-tx-l
+$Comp
+L kbd:MJ-4PP-9 J3
+U 1 1 5FAC4F3D
+P 4575 1625
+F 0 "J3" H 4606 1901 50  0000 C CNN
+F 1 "MJ-4PP-9" H 4606 1810 50  0000 C CNN
+F 2 "kbd:MJ-4PP-9_1side" H 4850 1800 50  0001 C CNN
+F 3 "~" H 4850 1800 50  0001 C CNN
+	1    4575 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 1700 4775 1700
+$Comp
+L power:GND #PWR09
+U 1 1 5FAD51FA
+P 4950 1800
+F 0 "#PWR09" H 4950 1550 50  0001 C CNN
+F 1 "GND" H 4955 1627 50  0000 C CNN
+F 2 "" H 4950 1800 50  0001 C CNN
+F 3 "" H 4950 1800 50  0001 C CNN
+	1    4950 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 1650 4950 1650
+Wire Wire Line
+	4950 1650 4950 1800
+$Comp
+L power:VCC #PWR012
+U 1 1 5FADB33A
+P 5000 1475
+F 0 "#PWR012" H 5000 1325 50  0001 C CNN
+F 1 "VCC" H 5015 1648 50  0000 C CNN
+F 2 "" H 5000 1475 50  0001 C CNN
+F 3 "" H 5000 1475 50  0001 C CNN
+	1    5000 1475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 1600 5000 1600
+Wire Wire Line
+	5000 1600 5000 1475
+Text GLabel 1375 1700 0    50   Input ~ 0
+led-l
+Text GLabel 5450 2525 2    50   Input ~ 0
+led-l
+Text GLabel 6650 2475 0    50   Input ~ 0
+row0-r
+Text GLabel 6650 2575 0    50   Input ~ 0
+row1-r
+Text GLabel 6650 2775 0    50   Input ~ 0
+row2-r
+Text GLabel 6650 2875 0    50   Input ~ 0
+row3-r
+Text GLabel 7550 2275 2    50   Input ~ 0
+col0-r
+Text GLabel 7550 2375 2    50   Input ~ 0
+col1-r
+Text GLabel 7550 2475 2    50   Input ~ 0
+col2-r
+Text GLabel 7550 2575 2    50   Input ~ 0
+col3-r
+Text GLabel 7550 2775 2    50   Input ~ 0
+col4-r
+Text GLabel 7550 2875 2    50   Input ~ 0
+col5-r
+Text GLabel 7550 1975 2    50   Input ~ 0
+reset-r
+$Comp
+L power:VDD #PWR018
+U 1 1 5FBD2F52
+P 8200 875
+F 0 "#PWR018" H 8200 725 50  0001 C CNN
+F 1 "VDD" H 8215 1048 50  0000 C CNN
+F 2 "" H 8200 875 50  0001 C CNN
+F 3 "" H 8200 875 50  0001 C CNN
+	1    8200 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR019
+U 1 1 5FBDA152
+P 8125 1300
+F 0 "#PWR019" H 8125 1050 50  0001 C CNN
+F 1 "GNDA" H 8130 1127 50  0000 C CNN
+F 2 "" H 8125 1300 50  0001 C CNN
+F 3 "" H 8125 1300 50  0001 C CNN
+	1    8125 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6650 1775 0    50   Input ~ 0
+led-r
+Text GLabel 6650 975  0    50   Input ~ 0
+data-tx-r
+$Comp
+L power:GNDA #PWR014
+U 1 1 5FBF7A3C
+P 5975 1175
+F 0 "#PWR014" H 5975 925 50  0001 C CNN
+F 1 "GNDA" H 5980 1002 50  0000 C CNN
+F 2 "" H 5975 1175 50  0001 C CNN
+F 3 "" H 5975 1175 50  0001 C CNN
+	1    5975 1175
+	1    0    0    -1  
+$EndComp
+Text GLabel 9650 975  0    50   Input ~ 0
+reset-r
+$Comp
+L kbd:SW_PUSH SW42
+U 1 1 5FC1C8D4
+P 9950 975
+F 0 "SW42" H 9950 1230 50  0000 C CNN
+F 1 "SW_RESET" H 9950 1139 50  0000 C CNN
+F 2 "kbd:ResetSW_1side" H 9950 975 50  0001 C CNN
+F 3 "" H 9950 975 50  0000 C CNN
+	1    9950 975 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR024
+U 1 1 5FC1DC05
+P 10250 975
+F 0 "#PWR024" H 10250 725 50  0001 C CNN
+F 1 "GNDA" H 10255 802 50  0000 C CNN
+F 2 "" H 10250 975 50  0001 C CNN
+F 3 "" H 10250 975 50  0001 C CNN
+	1    10250 975 
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:MJ-4PP-9 J6
+U 1 1 5FC22847
+P 9800 1675
+F 0 "J6" H 9831 1951 50  0000 C CNN
+F 1 "MJ-4PP-9" H 9831 1860 50  0000 C CNN
+F 2 "kbd:MJ-4PP-9_1side" H 10075 1850 50  0001 C CNN
+F 3 "~" H 10075 1850 50  0001 C CNN
+	1    9800 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 1750 10450 1750
+$Comp
+L power:VDD #PWR020
+U 1 1 5FC2E770
+P 10200 1500
+F 0 "#PWR020" H 10200 1350 50  0001 C CNN
+F 1 "VDD" H 10215 1673 50  0000 C CNN
+F 2 "" H 10200 1500 50  0001 C CNN
+F 3 "" H 10200 1500 50  0001 C CNN
+	1    10200 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 1650 10200 1650
+Wire Wire Line
+	10200 1650 10200 1500
+$Comp
+L power:GNDA #PWR021
+U 1 1 5FC34009
+P 10250 1825
+F 0 "#PWR021" H 10250 1575 50  0001 C CNN
+F 1 "GNDA" H 10255 1652 50  0000 C CNN
+F 2 "" H 10250 1825 50  0001 C CNN
+F 3 "" H 10250 1825 50  0001 C CNN
+	1    10250 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 1700 10250 1700
+Wire Wire Line
+	10250 1700 10250 1825
+Text GLabel 10675 2575 2    50   Input ~ 0
+led-r
+Wire Wire Line
+	3350 6100 1200 6100
+Connection ~ 3350 6100
+Wire Wire Line
+	8750 6100 6600 6100
+Connection ~ 8750 6100
+$Comp
+L LED:WS2812B D51
+U 1 1 5F9D94A6
+P 5150 2525
+F 0 "D51" H 4900 2675 50  0000 R CNN
+F 1 "WS2812B" H 4900 2400 50  0000 R CNN
+F 2 "Yoichiro:LED_WS2812B" H 5200 2225 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5250 2150 50  0001 L TNN
+	1    5150 2525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8125 1175 8125 1300
+$Comp
+L LED:WS2812B D49
+U 1 1 5FB538F1
+P 4550 2525
+F 0 "D49" H 4300 2675 50  0000 R CNN
+F 1 "WS2812B" H 4300 2400 50  0000 R CNN
+F 2 "Yoichiro:LED_WS2812B" H 4600 2225 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4650 2150 50  0001 L TNN
+	1    4550 2525
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D47
+U 1 1 5FB54B63
+P 3950 2525
+F 0 "D47" H 3700 2675 50  0000 R CNN
+F 1 "WS2812B" H 3700 2400 50  0000 R CNN
+F 2 "Yoichiro:LED_WS2812B" H 4000 2225 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 2150 50  0001 L TNN
+	1    3950 2525
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D45
+U 1 1 5FB67001
+P 3350 2525
+F 0 "D45" H 3100 2675 50  0000 R CNN
+F 1 "WS2812B" H 3100 2400 50  0000 R CNN
+F 2 "Yoichiro:LED_WS2812B" H 3400 2225 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3450 2150 50  0001 L TNN
+	1    3350 2525
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D46
+U 1 1 5FBF40A1
+P 3350 3225
+F 0 "D46" H 3100 3375 50  0000 R CNN
+F 1 "WS2812B" H 3100 3100 50  0000 R CNN
+F 2 "Yoichiro:LED_WS2812B" H 3400 2925 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3450 2850 50  0001 L TNN
+	1    3350 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D48
+U 1 1 5FBFA037
+P 3950 3225
+F 0 "D48" H 3700 3375 50  0000 R CNN
+F 1 "WS2812B" H 3700 3100 50  0000 R CNN
+F 2 "Yoichiro:LED_WS2812B" H 4000 2925 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 2850 50  0001 L TNN
+	1    3950 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D59
+U 1 1 5FC4AACD
+P 10375 2575
+F 0 "D59" H 10125 2725 50  0000 R CNN
+F 1 "WS2812B" H 10125 2450 50  0000 R CNN
+F 2 "Yoichiro:LED_WS2812B" H 10425 2275 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10475 2200 50  0001 L TNN
+	1    10375 2575
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D57
+U 1 1 5FC52E00
+P 9775 2575
+F 0 "D57" H 9525 2725 50  0000 R CNN
+F 1 "WS2812B" H 9525 2450 50  0000 R CNN
+F 2 "Yoichiro:LED_WS2812B" H 9825 2275 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9875 2200 50  0001 L TNN
+	1    9775 2575
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D55
+U 1 1 5FC537A5
+P 9175 2575
+F 0 "D55" H 8925 2725 50  0000 R CNN
+F 1 "WS2812B" H 8925 2450 50  0000 R CNN
+F 2 "Yoichiro:LED_WS2812B" H 9225 2275 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9275 2200 50  0001 L TNN
+	1    9175 2575
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D53
+U 1 1 5FC53F87
+P 8575 2575
+F 0 "D53" H 8325 2725 50  0000 R CNN
+F 1 "WS2812B" H 8325 2450 50  0000 R CNN
+F 2 "Yoichiro:LED_WS2812B" H 8625 2275 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8675 2200 50  0001 L TNN
+	1    8575 2575
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D54
+U 1 1 5FE0238B
+P 8575 3275
+F 0 "D54" H 8325 3425 50  0000 R CNN
+F 1 "WS2812B" H 8325 3150 50  0000 R CNN
+F 2 "Yoichiro:LED_WS2812B" H 8625 2975 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8675 2900 50  0001 L TNN
+	1    8575 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D56
+U 1 1 5FE04EFF
+P 9175 3275
+F 0 "D56" H 8925 3425 50  0000 R CNN
+F 1 "WS2812B" H 8925 3150 50  0000 R CNN
+F 2 "Yoichiro:LED_WS2812B" H 9225 2975 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9275 2900 50  0001 L TNN
+	1    9175 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR010
+U 1 1 5FE33DF1
+P 5800 2200
+F 0 "#PWR010" H 5800 2050 50  0001 C CNN
+F 1 "VCC" H 5815 2373 50  0000 C CNN
+F 2 "" H 5800 2200 50  0001 C CNN
+F 3 "" H 5800 2200 50  0001 C CNN
+	1    5800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2200 5800 2875
+Wire Wire Line
+	5800 2875 5150 2875
+Wire Wire Line
+	3350 2875 3350 2825
+Wire Wire Line
+	3350 2925 3350 2875
+Connection ~ 3350 2875
+Wire Wire Line
+	3950 2925 3950 2875
+Connection ~ 3950 2875
+Wire Wire Line
+	3950 2875 3350 2875
+Wire Wire Line
+	3950 2825 3950 2875
+Connection ~ 4550 2875
+Wire Wire Line
+	4550 2875 3950 2875
+Wire Wire Line
+	4550 2825 4550 2875
+Connection ~ 5150 2875
+Wire Wire Line
+	5150 2875 4550 2875
+Wire Wire Line
+	5150 2825 5150 2875
+$Comp
+L power:GND #PWR011
+U 1 1 5FE679C5
+P 4550 3525
+F 0 "#PWR011" H 4550 3275 50  0001 C CNN
+F 1 "GND" H 4555 3352 50  0000 C CNN
+F 2 "" H 4550 3525 50  0001 C CNN
+F 3 "" H 4550 3525 50  0001 C CNN
+	1    4550 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2225 4550 2225
+Wire Wire Line
+	4550 2225 3950 2225
+Connection ~ 4550 2225
+Wire Wire Line
+	3950 2225 3350 2225
+Connection ~ 3950 2225
+Wire Wire Line
+	3350 2225 2950 2225
+Wire Wire Line
+	2950 2225 2950 3525
+Wire Wire Line
+	2950 3525 3350 3525
+Connection ~ 3350 2225
+Wire Wire Line
+	3350 3525 3950 3525
+Connection ~ 3350 3525
+$Comp
+L power:VDD #PWR022
+U 1 1 5FEE620D
+P 11050 2200
+F 0 "#PWR022" H 11050 2050 50  0001 C CNN
+F 1 "VDD" H 11065 2373 50  0000 C CNN
+F 2 "" H 11050 2200 50  0001 C CNN
+F 3 "" H 11050 2200 50  0001 C CNN
+	1    11050 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11050 2200 11050 2925
+Wire Wire Line
+	11050 2925 10375 2925
+Wire Wire Line
+	8575 2925 8575 2875
+Wire Wire Line
+	8575 2975 8575 2925
+Connection ~ 8575 2925
+Wire Wire Line
+	9175 2975 9175 2925
+Connection ~ 9175 2925
+Wire Wire Line
+	9175 2925 8575 2925
+Wire Wire Line
+	9175 2875 9175 2925
+Connection ~ 9775 2925
+Wire Wire Line
+	9775 2925 9175 2925
+Wire Wire Line
+	9775 2875 9775 2925
+Connection ~ 10375 2925
+Wire Wire Line
+	10375 2925 9775 2925
+Wire Wire Line
+	10375 2275 9775 2275
+Wire Wire Line
+	9775 2275 9175 2275
+Connection ~ 9775 2275
+Wire Wire Line
+	9175 2275 8575 2275
+Connection ~ 9175 2275
+Wire Wire Line
+	8575 2275 8200 2275
+Wire Wire Line
+	8200 2275 8200 3575
+Wire Wire Line
+	8200 3575 8575 3575
+Connection ~ 8575 2275
+Wire Wire Line
+	8575 3575 9175 3575
+Connection ~ 8575 3575
+Connection ~ 9175 3575
+$Comp
+L power:GNDA #PWR023
+U 1 1 5FF5F1A2
+P 9775 3575
+F 0 "#PWR023" H 9775 3325 50  0001 C CNN
+F 1 "GNDA" H 9780 3402 50  0000 C CNN
+F 2 "" H 9775 3575 50  0001 C CNN
+F 3 "" H 9775 3575 50  0001 C CNN
+	1    9775 3575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2525 3050 3225
+Wire Wire Line
+	8275 2575 8275 3275
+Wire Wire Line
+	10375 2875 10375 2925
+NoConn ~ 4250 3225
+Wire Wire Line
+	3950 3525 4550 3525
+Connection ~ 3950 3525
+Wire Wire Line
+	9175 3575 9775 3575
+NoConn ~ 9475 3275
+Text GLabel 1375 2800 0    50   Input ~ 0
+row3-l
+Text GLabel 1375 2700 0    50   Input ~ 0
+row2-l
+Text GLabel 1375 2500 0    50   Input ~ 0
+row1-l
+Text GLabel 1375 1000 0    50   Input ~ 0
+data-rx-l
+Text GLabel 5075 1550 2    50   Input ~ 0
+data-rx-l
+Wire Wire Line
+	4775 1550 5075 1550
+Wire Wire Line
+	2275 2100 2650 2100
+Wire Wire Line
+	2650 2100 2650 1100
+Connection ~ 2650 1100
+Wire Wire Line
+	2650 1100 2700 1100
+Wire Wire Line
+	2275 2600 2700 2600
+Wire Wire Line
+	2700 2600 2700 1100
+Connection ~ 2700 1100
+Wire Wire Line
+	2700 1100 2875 1100
+Wire Wire Line
+	725  1100 875  1100
+Wire Wire Line
+	975  1600 975  1100
+Connection ~ 975  1100
+Wire Wire Line
+	925  2100 925  1100
+Connection ~ 925  1100
+Wire Wire Line
+	925  1100 975  1100
+Wire Wire Line
+	875  2600 875  1100
+Connection ~ 875  1100
+Wire Wire Line
+	875  1100 925  1100
+Wire Wire Line
+	2875 1100 2875 1300
+$Comp
+L power:GND #PWR08
+U 1 1 5FA91FC8
+P 2875 1300
+F 0 "#PWR08" H 2875 1050 50  0001 C CNN
+F 1 "GND" H 2880 1127 50  0000 C CNN
+F 2 "" H 2875 1300 50  0001 C CNN
+F 3 "" H 2875 1300 50  0001 C CNN
+	1    2875 1300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2275 1200
+NoConn ~ 2275 1300
+NoConn ~ 2275 1400
+NoConn ~ 2275 1500
+NoConn ~ 2275 1600
+NoConn ~ 2275 1700
+NoConn ~ 2275 1800
+NoConn ~ 2275 2000
+NoConn ~ 1375 2000
+NoConn ~ 1375 1800
+NoConn ~ 1375 1500
+NoConn ~ 1375 1400
+NoConn ~ 1375 1300
+NoConn ~ 1375 1200
+Text GLabel 6650 1075 0    50   Input ~ 0
+data-rx-r
+Text GLabel 10450 1750 2    50   Input ~ 0
+data-rx-r
+Text GLabel 10450 1600 2    50   Input ~ 0
+data-tx-r
+Wire Wire Line
+	10000 1600 10450 1600
+Wire Wire Line
+	5975 1175 6125 1175
+Wire Wire Line
+	7550 1075 8200 1075
+Wire Wire Line
+	8200 1075 8200 875 
+Wire Wire Line
+	6650 2675 6125 2675
+Wire Wire Line
+	6125 2675 6125 1175
+Connection ~ 6125 1175
+Wire Wire Line
+	6125 1175 6175 1175
+Wire Wire Line
+	6650 2175 6175 2175
+Wire Wire Line
+	6175 2175 6175 1175
+Connection ~ 6175 1175
+Wire Wire Line
+	6175 1175 6225 1175
+Wire Wire Line
+	6650 1675 6225 1675
+Wire Wire Line
+	6225 1675 6225 1175
+Connection ~ 6225 1175
+Wire Wire Line
+	6225 1175 6650 1175
+Wire Wire Line
+	7550 1175 7925 1175
+Wire Wire Line
+	7550 2175 7925 2175
+Wire Wire Line
+	7925 2175 7925 1175
+Connection ~ 7925 1175
+Wire Wire Line
+	7925 1175 7975 1175
+Wire Wire Line
+	7975 2675 7975 1175
+Connection ~ 7975 1175
+Wire Wire Line
+	7975 1175 8125 1175
+NoConn ~ 6650 1275
+NoConn ~ 6650 1375
+NoConn ~ 6650 1475
+NoConn ~ 6650 1575
+NoConn ~ 7550 975 
+NoConn ~ 7550 1275
+NoConn ~ 7550 1375
+NoConn ~ 7550 1475
+NoConn ~ 7550 1575
+NoConn ~ 7550 1675
+NoConn ~ 7550 1775
+NoConn ~ 7550 1875
+NoConn ~ 7550 2075
+NoConn ~ 6650 1875
+NoConn ~ 6650 2075
+Text GLabel 2275 2700 2    50   Input ~ 0
+col4-l
+Text GLabel 2275 2800 2    50   Input ~ 0
+col5-l
+Wire Wire Line
+	7550 2675 7975 2675
+NoConn ~ 1375 2300
+NoConn ~ 1375 2200
+NoConn ~ 6650 2275
+NoConn ~ 6650 2375
+Wire Wire Line
+	1375 1600 975  1600
+Wire Wire Line
+	975  1100 1375 1100
+Wire Wire Line
+	1375 2600 875  2600
+Wire Wire Line
+	1375 2100 925  2100
+$Comp
+L yoichiro:Raspberry_Pie_Pico U1
+U 1 1 614B8506
+P 1825 1850
+F 0 "U1" H 1825 3045 50  0000 C CNN
+F 1 "Raspberry_Pie_Pico" H 1825 2954 50  0000 C CNN
+F 2 "Yoichiro:Raspberry_Pi_Pico" H 1825 1850 50  0001 C CNN
+F 3 "" H 1825 1850 50  0001 C CNN
+	1    1825 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L yoichiro:Raspberry_Pie_Pico U2
+U 1 1 614BC7E0
+P 7100 1925
+F 0 "U2" H 7100 3120 50  0000 C CNN
+F 1 "Raspberry_Pie_Pico" H 7100 3029 50  0000 C CNN
+F 2 "Yoichiro:Raspberry_Pi_Pico" H 7100 1925 50  0001 C CNN
+F 3 "" H 7100 1925 50  0001 C CNN
+	1    7100 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L PKLCS1212E4001-R1:PKLCS1212E4001-R1 LS1
+U 1 1 614D0A3E
+P 4000 1600
+F 0 "LS1" H 4104 1646 50  0000 L CNN
+F 1 "PKLCS1212E4001-R1" H 3150 1550 50  0000 L CNN
+F 2 "Yoichiro:SPKR_PKLCS1212E4001-R1" H 4000 1600 50  0001 L BNN
+F 3 "Murata Electronics" H 4000 1600 50  0001 L BNN
+F 4 "January 22, 2018" H 4000 1600 50  0001 L BNN "Field4"
+F 5 "Manufacturer Recommendations" H 4000 1600 50  0001 L BNN "Field5"
+F 6 "3.0 mm" H 4000 1600 50  0001 L BNN "Field6"
+	1    4000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 614F92F3
+P 4000 1800
+F 0 "#PWR04" H 4000 1550 50  0001 C CNN
+F 1 "GND" H 4005 1627 50  0000 C CNN
+F 2 "" H 4000 1800 50  0001 C CNN
+F 3 "" H 4000 1800 50  0001 C CNN
+	1    4000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 614FAF78
+P 3850 1400
+F 0 "R1" V 3775 1400 50  0000 C CNN
+F 1 "1k" V 3850 1400 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid-Back" V 3780 1400 50  0001 C CNN
+F 3 "~" H 3850 1400 50  0001 C CNN
+	1    3850 1400
+	0    1    1    0   
+$EndComp
+Text GLabel 3700 1400 0    50   Input ~ 0
+audio-l
+Text GLabel 1375 1900 0    50   Input ~ 0
+audio-l
+$Comp
+L PKLCS1212E4001-R1:PKLCS1212E4001-R1 LS2
+U 1 1 6152A555
+P 9125 1650
+F 0 "LS2" H 9229 1696 50  0000 L CNN
+F 1 "PKLCS1212E4001-R1" H 8275 1600 50  0000 L CNN
+F 2 "Yoichiro:SPKR_PKLCS1212E4001-R1" H 9125 1650 50  0001 L BNN
+F 3 "Murata Electronics" H 9125 1650 50  0001 L BNN
+F 4 "January 22, 2018" H 9125 1650 50  0001 L BNN "Field4"
+F 5 "Manufacturer Recommendations" H 9125 1650 50  0001 L BNN "Field5"
+F 6 "3.0 mm" H 9125 1650 50  0001 L BNN "Field6"
+	1    9125 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR05
+U 1 1 6152B7A5
+P 9125 1850
+F 0 "#PWR05" H 9125 1600 50  0001 C CNN
+F 1 "GNDA" H 9130 1677 50  0000 C CNN
+F 2 "" H 9125 1850 50  0001 C CNN
+F 3 "" H 9125 1850 50  0001 C CNN
+	1    9125 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6152DC8A
+P 8975 1450
+F 0 "R2" V 8900 1450 50  0000 C CNN
+F 1 "1k" V 8975 1450 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid-Back" V 8905 1450 50  0001 C CNN
+F 3 "~" H 8975 1450 50  0001 C CNN
+	1    8975 1450
+	0    1    1    0   
+$EndComp
+Text GLabel 8825 1450 0    50   Input ~ 0
+audio-r
+Text GLabel 6650 1975 0    50   Input ~ 0
+audio-r
+Wire Wire Line
+	2275 1000 2975 1000
+Wire Wire Line
+	2975 875  2975 1000
+NoConn ~ 2275 900 
+$EndSCHEMATC
